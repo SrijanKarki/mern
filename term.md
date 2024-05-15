@@ -16,4 +16,8 @@ attribute
 1. > git status (optional)
     (Finds difference betwee online and local repo)
 
-2. > git add .
+2. > git add . (Adds local file to the repo)
+
+3. > git commit -m "html-css"
+
+4. > git push
