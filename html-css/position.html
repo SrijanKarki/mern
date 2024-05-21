@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>CSS Positions</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        .static {
+            position: static;
+        }
+        .relative {
+            position: relative;
+            background-color: white;
+        }
+        .absolute {
+            position: absolute;
+            background-color: orange;
+        }
+        .fixed {
+            /* position: fixed; */
+        }
+        .sticky {
+            /* position: sticky; */
+        }
+
+        .box{
+        height: 200px;
+        width:  200px;
+        border: 1px solid;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="active-link">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </header>
+    <h1>CSS Positions</h1>
+    <ul>
+        <li class="box static">static</li>
+        <li class="box relative">relative</li>
+        <li class="box absolute">absolute</li>
+        <li class="box fixed">fixed</li>
+        <li class="box sticky">sticky</li>
+    </ul>
+</body>
+</html>
