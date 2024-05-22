@@ -22,4 +22,4 @@ const PI = 3.14;
 console.log(PI);
 
 let count;
-console.log(countd);
+console.log(count);
