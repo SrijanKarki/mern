@@ -40,5 +40,17 @@ let fakeName = names.map((name, index) => {
         password: `${name}${index}`
     }
 })
+
 console.log(users);
 console.log("Map Names", fakeName);
+
+/* asynchronous task */
+
+/*
+    - pending
+    - resolve
+    - reject
+ */
+let promise = new Promise((resolve, reject) => {
+
+});

@@ -1,0 +1,10 @@
+.project {
+    border: 1px solid;
+    padding: 1rem;
+    width: 300px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
