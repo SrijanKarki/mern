@@ -5,6 +5,13 @@ import Projects from './Projects';
 import Users from './Users';
 import Products from './Products';
 import Counter from './Counter';
+import TodoList from './TodoList';
+import GoogleTabsTwo from './GoogleTabsTwo';
+import ShoppingList from './ShoppingList';
+import Members from './Members';
+import ProductSearch from './ProductSearch';
+
+// import GoogleTabs from './GoogleTabs';
 
 /* let projects = [
   {
@@ -35,9 +42,15 @@ import Counter from './Counter';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <Users/> */}
-   {/* <Projects/> */}
-   <Counter/>
-   {/* <Products/> */}
+    {/* <Users/> */},
+   {/* <Projects/> */},
+   {/* <Counter/> */},
+   {/* <Products/> */},
+   <TodoList/>,
+   {/* <GoogleTabs/> */},
+   {/* <GoogleTabsTwo/> */},
+   {/* <ShoppingList/> */},
+   {/* <Members/> */},
+   {/* <ProductSearch/>, */}
   </React.StrictMode>,
 )
